@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id= "@+id/id_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TableRow>
+
+    <TextView
+        android:id="@+id/id_text_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextViewStyle"
+        android:text="@string/str_text_view_1"/>
+
+        <EditText
+            android:id="@id/id_edit_text_1"
+            android:layout_width="match_parent"
+            android:layout_height='wrap_content'
+            android:hint="@string/str_text_view_1"
+            android:imeOptions="actionNext"
+            android:maxLength="40"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ÑñÁÉÍÓÚáéíóú"
+            />
+
+        </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/id_text_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="@string/str_text_view_2" />
+        <EditText
+            android:id="@+id/id_edit_text_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/str_text_view_2"
+            android:imeOptions="actionNext"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/id_text_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="@string/str_text_view_3" />
+
+        <EditText
+            android:id="@+id/id_edit_text_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="2"
+            android:digits="0123456789 "
+            android:hint="@string/str_text_view_3"
+            android:imeOptions="actionNext"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/id_text_view_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewStyle"
+            android:text="@string/str_text_view_4" />
+        <EditText
+            android:id="@+id/id_edit_text_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/str_text_view_4"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ñÑáéíóúÁÉÍÓÚ"
+            android:maxLength="9"
+            />
+
+    </TableRow>
+    <TableRow>
+
+    <Button
+        android:id="@+id/id_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_Button_1"
+
+     />
+
+    <Button
+    android:id="@+id/id_button_2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/str_Button_2"
+    />
+
+
+    </TableRow>
+
+    </TableLayout>

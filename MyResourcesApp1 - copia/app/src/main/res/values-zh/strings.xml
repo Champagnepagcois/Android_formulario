@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">中国</string>
+    <string name="str_Button_1">清理</string>
+    <string name="str_Button_2">接受</string>
+    <string name="str_text_view_1">名</string>
+    <string name="str_text_view_2">手机</string>
+    <string name="str_text_view_3">年龄</string>
+    <string name="str_text_view_4">性别</string>
+</resources>

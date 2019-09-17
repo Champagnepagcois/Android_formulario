@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_Button_1">aufräumen</string>
+    <string name="str_Button_2">akzeptieren</string>
+    <string name="str_text_view_1">Name</string>
+    <string name="str_text_view_2">Telefonnummer</string>
+    <string name="str_text_view_3">Alter</string>
+    <string name="str_text_view_4">Geschlecht</string>
+    <string name="app_name">deutsch</string>
+</resources>

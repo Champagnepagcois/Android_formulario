@@ -1,0 +1,9 @@
+<resources>
+    <string name="str_text_view_1">Nombre</string>
+    <string name="str_text_view_2">Teléfono</string>
+    <string name="str_text_view_3">Edad</string>
+    <string name="str_text_view_4">Género</string>
+    <string name="str_Button_1">Limpiar</string>
+    <string name="str_Button_2">Aceptar</string>
+    <string name="app_name">E</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">русский</string>
+    <string name="str_text_view_1">имя</string>
+    <string name="str_text_view_3">возраст</string>
+    <string name="str_text_view_4">пол</string>
+    <string name="str_Button_1">убирать</string>
+    <string name="str_Button_2">принимать</string>
+    <string name="str_text_view_2">номер</string>
+</resources>
